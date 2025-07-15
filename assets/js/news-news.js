@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const filterOptions = document.querySelectorAll(".filter-option");
     const searchInput = document.querySelector('.search-input');
     const newsContainer = document.querySelector("#newsContent");
-    const noArticleMessage = newsContainer.querySelector('p'); // Thẻ p thông báo không có bài viết
+    const noArticleMessage = newsContainer.querySelector('.no-new'); // Thẻ p thông báo không có bài viết
     const newsSection = document.querySelector("#news"); // Phần tử cần cuộn lên đầu trang
     let items = Array.from(newsContainer.querySelectorAll("a"));
     const perPage = 7;

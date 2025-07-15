@@ -1,7 +1,7 @@
-// // Ngăn sử dụng chuột phải
-// document.addEventListener('contextmenu', function (e) {
-//     e.preventDefault();
-// });
+// Ngăn sử dụng chuột phải
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
 
 
 document.addEventListener('copy', function (e) {
