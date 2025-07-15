@@ -15,7 +15,6 @@ Website được xây dựng nhằm:
 - **HTML5 / CSS3 / JavaScript**
 - **Bootstrap 4**
 - **Swiper.js** – cho hiệu ứng slider form
-- **Wow.js** - cho hiệu ứng animation động
 - **Vercel** – deploy miễn phí
 
 ## 🚀 Triển khai

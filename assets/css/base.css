@@ -192,6 +192,10 @@
   }
 }
 
+.header {
+  height: 100vh !important;
+}
+
 .mybounceInRight {
   animation: MybounceInRight 1s both;
 }

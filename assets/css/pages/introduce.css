@@ -142,82 +142,8 @@
   margin-bottom: 0;
 }
 
-.history-bottom::after,
-.history-bottom::before {
-  position: absolute;
-  content: "SPIT";
-  background: linear-gradient(
-    to bottom,
-    #00144d 0px,
-    #00144d 60px,
-    #ffe5c7 60px,
-    #ffe5c7 100%
-  );
-  color: transparent;
-  background-clip: text;
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  font-family: var(--fontTextExtra);
-  font-size: 160px;
-}
-
-.history-bottom::after {
-  transform: rotate(180deg);
-  right: -60px;
-  bottom: -60px;
-}
-
-.history-bottom::before {
-  left: -60px;
-  top: -60px;
-}
-
 /* Start history responsive */
-@media screen and (max-width: 1299.98px) {
-  .history-bottom::after,
-  .history-bottom::before {
-    font-size: 140px;
-    background: linear-gradient(
-      to bottom,
-      #00144d 0px,
-      #00144d 55px,
-      #ffe5c7 55px,
-      #ffe5c7 100%
-    );
-    background-clip: text;
-  }
-  .history-bottom::after {
-    right: -55px;
-    bottom: -55px;
-  }
-  .history-bottom::before {
-    left: -55px;
-    top: -55px;
-  }
-}
 @media screen and (max-width: 1199.98px) {
-  .history-bottom::after,
-  .history-bottom::before {
-    font-size: 120px;
-    background: linear-gradient(
-      to bottom,
-      #00144d 0px,
-      #00144d 45px,
-      #ffe5c7 45px,
-      #ffe5c7 100%
-    );
-    background-clip: text;
-  }
-
-  .history-bottom::after {
-    right: -45px;
-    bottom: -45px;
-  }
-
-  .history-bottom::before {
-    left: -45px;
-    top: -45px;
-  }
   .history .history-title {
     font-size: 36px;
     padding-top: 85px;
@@ -258,43 +184,6 @@
   }
   .history-top {
     position: relative;
-  }
-  .history-top::after {
-    z-index: 1;
-    content: "SPIT";
-    transform: rotate(180deg);
-    position: absolute;
-    color: transparent;
-    font-size: 100px;
-    background: linear-gradient(
-      to bottom,
-      #ffe5c7 0px,
-      #ffe5c7 180px,
-      #00144d 180px,
-      #00144d 100%
-    );
-    right: -40px;
-    bottom: -180px;
-    background-clip: text;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-    font-family: var(--fontTextExtra);
-  }
-  .history-bottom::before {
-    font-size: 100px;
-    background: linear-gradient(
-      to bottom,
-      #00144d 0px,
-      #00144d 180px,
-      #ffe5c7 180px,
-      #ffe5c7 100%
-    );
-    background-clip: text;
-    left: -40px;
-    top: -180px;
-  }
-  .history-bottom::after {
-    display: none;
   }
   .history .history-top .history-title {
     text-align: center;
@@ -348,10 +237,6 @@
     padding-right: inherit;
   }
   .history .col-lg-5 img {
-    display: none;
-  }
-  .history-top::after,
-  .history-bottom::before {
     display: none;
   }
   .history .d-sm-none.col-sm-12 {
