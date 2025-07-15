@@ -29,3 +29,17 @@ Trang web được deploy tại:
 git clone https://github.com/TruongPersonal/SPIT_Club.git
 cd SPIT_Club
 # Mở file index.html bằng trình duyệt hoặc dùng Live Server (VS Code)
+```
+
+## 🧑‍💻 Thành viên thực hiện
+- **Ngô Quang Trường** – Thiết kế giao diện, hiệu ứng JavaScript, logic biểu mẫu  
+- **CLB SPIT** – Nội dung, hình ảnh, đóng góp ý tưởng
+
+## 📌 Bản quyền
+
+Mọi nội dung trong website thuộc bản quyền của **CLB SPIT – HUSC**  
+Không sử dụng lại với mục đích thương mại nếu không được sự cho phép.
+
+---
+
+> 📣 Mọi ý kiến đóng góp, vui lòng gửi về Fanpage chính thức hoặc Email CLB.
