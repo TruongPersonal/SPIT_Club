@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
       delay: 3000,
       disableOnInteraction: false,
     },
+    observer: true,
+    observeParents: true,
   });
 
   // Swiper form
